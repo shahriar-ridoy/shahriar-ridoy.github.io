@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shahriar Ahammed Ridoy | AI Marketing & Growth Strategist</title>
+<meta name="description" content="AI Marketing & Growth Strategist: paid ads (Meta, TikTok, Google), AI automation, websites and creative. Full portfolio at shahriargrowth.com.">
+<link rel="canonical" href="https://shahriargrowth.com/">
+<meta property="og:title" content="Shahriar | AI Marketing & Growth Strategist">
+<meta property="og:description" content="Paid ads, AI automation, websites and creative that help businesses scale.">
+<meta property="og:image" content="https://shahriargrowth.com/og.jpg">
+<meta property="og:url" content="https://shahriargrowth.com/">
+<link rel="icon" href="https://shahriargrowth.com/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#05060a; --ink:#ecebe6; --mute:rgba(236,235,230,.62); --line:rgba(255,255,255,.08); --mint:#7cf5d8; --violet:#9a8cff; --gold:#f2c27b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html { scroll-behavior:smooth; }
+  body { background:var(--bg); color:var(--ink); font-family:"Geist",system-ui,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  a { color:inherit; text-decoration:none; }
+  img { max-width:100%; display:block; }
+  .wrap { width:min(1160px, 92vw); margin:0 auto; }
+  .mono { font-family:"Geist Mono",monospace; font-size:.74rem; letter-spacing:.18em; text-transform:uppercase; color:var(--mute); }
+  .serif { font-family:"Instrument Serif",serif; font-style:italic; font-weight:400; }
+  .grad { background:linear-gradient(100deg,#fff 0%,var(--mint) 55%,var(--violet) 100%); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .btn { display:inline-flex; align-items:center; gap:.5rem; padding:.85rem 1.4rem; border-radius:999px; font-weight:600; font-size:.95rem; transition:transform .2s, background .2s; }
+  .btn:hover { transform:translateY(-2px); }
+  .btn-primary { background:var(--mint); color:#04110d; }
+  .btn-ghost { border:1px solid rgba(255,255,255,.18); }
+  .btn-ghost:hover { background:rgba(255,255,255,.06); }
+
+  /* nav */
+  nav { position:sticky; top:0; z-index:10; backdrop-filter:blur(14px); background:rgba(5,6,10,.7); border-bottom:1px solid var(--line); }
+  nav .wrap { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .logo { font-weight:700; letter-spacing:-.02em; font-size:1.1rem; }
+  .logo span { color:var(--mint); }
+  .links { display:flex; gap:1.6rem; font-size:.9rem; color:var(--mute); }
+  .links a:hover { color:#fff; }
+  @media (max-width:760px){ .links { display:none; } }
+
+  /* hero */
+  .hero { position:relative; padding:7rem 0 5rem; overflow:hidden; }
+  .hero::before { content:""; position:absolute; inset:-20% -10% auto auto; width:760px; height:760px; border-radius:50%;
+    background:radial-gradient(closest-side,rgba(124,245,216,.16),rgba(154,140,255,.12) 55%,transparent 75%); pointer-events:none; }
+  .grid-bg { position:absolute; inset:0; background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+    background-size:64px 64px; -webkit-mask-image:radial-gradient(ellipse 70% 80% at 30% 40%,#000 20%,transparent 75%); pointer-events:none; }
+  .live { display:inline-flex; align-items:center; gap:.6rem; padding:.4rem .9rem; border:1px solid rgba(124,245,216,.3); border-radius:999px; font-size:.82rem; color:#bff9ea; background:rgba(124,245,216,.06); }
+  .live i { width:8px; height:8px; border-radius:50%; background:var(--mint); box-shadow:0 0 12px var(--mint); }
+  h1 { margin-top:1.6rem; font-size:clamp(2.6rem,7vw,5.6rem); line-height:.98; letter-spacing:-.045em; font-weight:700; max-width:14ch; }
+  h1 .serif { font-size:1.08em; }
+  .lead { margin-top:1.6rem; font-size:clamp(1.05rem,1.6vw,1.25rem); color:var(--mute); max-width:46ch; }
+  .cta { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.8rem; }
+  .chips { margin-top:2.6rem; display:flex; flex-wrap:wrap; gap:.5rem; }
+  .chip { font-size:.85rem; padding:.45rem .9rem; border-radius:999px; border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04); color:rgba(236,235,230,.85); }
+  .chip.ai { border-color:rgba(124,245,216,.4); color:#bff9ea; }
+
+  section { padding:5.5rem 0; border-top:1px solid var(--line); }
+  h2 { font-size:clamp(2rem,4vw,3.2rem); line-height:1.05; letter-spacing:-.035em; font-weight:600; margin-top:1rem; max-width:20ch; }
+  .sub { margin-top:1rem; color:var(--mute); max-width:56ch; }
+
+  /* results */
+  .kpis { margin-top:3rem; display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:22px; overflow:hidden; }
+  .kpi { background:var(--bg); padding:1.8rem 1.5rem; }
+  .kpi b { display:block; font-size:clamp(1.8rem,3vw,2.5rem); letter-spacing:-.03em; font-weight:600; }
+  .kpi span { display:block; margin-top:.3rem; font-size:.95rem; }
+  .kpi small { display:block; margin-top:.4rem; font-size:.8rem; color:var(--mute); }
+  @media (max-width:900px){ .kpis { grid-template-columns:repeat(2,1fr); } }
+  .note { margin-top:1rem; font-size:.8rem; color:var(--mute); }
+
+  /* services */
+  .svc { margin-top:3rem; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1rem; }
+  .card { border:1px solid var(--line); border-radius:22px; padding:1.8rem; background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01)); transition:border-color .2s, transform .2s; }
+  .card:hover { border-color:rgba(124,245,216,.35); transform:translateY(-3px); }
+  .card h3 { font-size:1.3rem; letter-spacing:-.02em; font-weight:600; margin-top:.6rem; }
+  .card p { margin-top:.6rem; color:var(--mute); font-size:.95rem; }
+  .card ul { margin-top:1rem; list-style:none; display:flex; flex-wrap:wrap; gap:.4rem; }
+  .card li { font-size:.78rem; padding:.3rem .65rem; border-radius:999px; background:rgba(255,255,255,.05); color:rgba(236,235,230,.8); }
+
+  /* work */
+  .work { margin-top:3rem; display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:1.2rem; }
+  .proj { border:1px solid var(--line); border-radius:22px; overflow:hidden; background:rgba(255,255,255,.02); transition:border-color .2s, transform .2s; display:flex; flex-direction:column; }
+  .proj:hover { border-color:rgba(124,245,216,.35); transform:translateY(-3px); }
+  .proj .thumb { aspect-ratio:16/10; background:#0b0d16 center/cover no-repeat; border-bottom:1px solid var(--line); }
+  .proj .thumb.txt { display:grid; place-items:center; padding:1.5rem; text-align:center; font-size:2rem; font-weight:600; letter-spacing:-.03em;
+    background:radial-gradient(closest-side,rgba(124,245,216,.14),transparent),#0b0d16; }
+  .proj .body { padding:1.4rem 1.5rem 1.6rem; }
+  .proj h3 { font-size:1.08rem; line-height:1.35; font-weight:600; letter-spacing:-.01em; }
+  .proj p { margin-top:.5rem; color:var(--mute); font-size:.9rem; }
+  .proj .go { margin-top:1rem; font-size:.85rem; color:var(--mint); }
+
+  /* process */
+  .steps { margin-top:3rem; display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; }
+  .step { border-top:1px solid rgba(124,245,216,.4); padding-top:1.2rem; }
+  .step h4 { font-size:1.1rem; font-weight:600; margin-top:.4rem; }
+  .step p { color:var(--mute); font-size:.92rem; margin-top:.4rem; }
+  @media (max-width:900px){ .steps { grid-template-columns:repeat(2,1fr); } }
+
+  /* contact */
+  .contact { text-align:center; }
+  .contact h2 { margin-left:auto; margin-right:auto; }
+  .contact .sub { margin-left:auto; margin-right:auto; }
+  .contact .cta { justify-content:center; }
+  .ch { margin-top:3rem; display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; text-align:left; }
+  .ch a { border:1px solid var(--line); border-radius:18px; padding:1.3rem 1.4rem; transition:border-color .2s; }
+  .ch a:hover { border-color:rgba(124,245,216,.35); }
+  .ch b { display:block; margin-top:.3rem; font-weight:500; word-break:break-all; }
+  @media (max-width:760px){ .ch { grid-template-columns:1fr; } }
+
+  footer { border-top:1px solid var(--line); padding:2rem 0; color:var(--mute); font-size:.85rem; }
+  footer .wrap { display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="https://shahriargrowth.com/">Shahriar<span>.</span></a>
+    <div class="links">
+      <a href="#results">Results</a><a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a><a href="#contact">Contact</a>
+    </div>
+    <a class="btn btn-primary" style="padding:.55rem 1.1rem;font-size:.85rem" href="https://shahriargrowth.com/">Visit full site ↗</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="grid-bg"></div>
+  <div class="wrap" style="position:relative">
+    <span class="live"><i></i>Taking on new projects</span>
+    <h1>AI Marketing &amp; <span class="serif grad">Growth Strategist</span></h1>
+    <p class="lead">I'm Shahriar Ahammed Ridoy. I help businesses scale with paid ads, scroll-stopping creative, AI automation and websites built to convert, all backed by tracking you can trust.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://shahriargrowth.com/#contact">Let's talk →</a>
+      <a class="btn btn-ghost" href="https://shahriargrowth.com/projects/">See all projects ↗</a>
+    </div>
+    <div class="chips">
+      <span class="chip">Meta Ads</span><span class="chip">TikTok Ads</span><span class="chip">Google Ads</span><span class="chip">Tracking &amp; GA4</span>
+      <span class="chip ai">AI Agents</span><span class="chip ai">AI Receptionist</span><span class="chip ai">Automation</span>
+      <span class="chip">Websites</span><span class="chip">Video &amp; Creative</span>
+    </div>
+  </div>
+</header>
+
+<section id="results">
+  <div class="wrap">
+    <p class="mono">Selected results</p>
+    <h2>Real numbers from <span class="serif grad">real ad accounts.</span></h2>
+    <p class="sub">Every figure comes from a platform screenshot and is shown with its spend and context. The full evidence is on the website.</p>
+    <div class="kpis">
+      <div class="kpi"><b>920</b><span>website purchases</span><small>$2.08 each · Meta Ads</small></div>
+      <div class="kpi"><b>1,275</b><span>messaging conversations</span><small>$244.57 spent · Meta Ads</small></div>
+      <div class="kpi"><b>9.94M</b><span>accounts reached</span><small>one breakdown · Meta Ads</small></div>
+      <div class="kpi"><b>$0.04</b><span>average CPC</span><small>7.46K clicks · Google Ads</small></div>
+      <div class="kpi"><b>7.36%</b><span>overall CTR</span><small>165,209 impressions · TikTok Ads</small></div>
+      <div class="kpi"><b>17.93x</b><span>ROI on a 7-day test</span><small>$8.66 → $155.25 · TikTok Shop</small></div>
+      <div class="kpi"><b>55.7M</b><span>views in 30 days</span><small>4.61% engagement · TikTok</small></div>
+      <div class="kpi"><b>624K</b><span>organic clicks</span><small>6 months · Search Console</small></div>
+    </div>
+    <p class="note">Results depend on the offer, market and budget. Past results are not a guarantee.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <p class="mono">Services</p>
+    <h2>One partner for <span class="serif grad">the whole growth system.</span></h2>
+    <div class="svc">
+      <a class="card" href="https://shahriargrowth.com/services/meta-ads/">
+        <p class="mono">Performance marketing</p><h3>Paid Ads &amp; Growth</h3>
+        <p>Paid acquisition, tracking you can trust, and funnels that turn clicks into customers.</p>
+        <ul><li>Meta Ads</li><li>TikTok Ads &amp; Shop</li><li>Google Ads</li><li>GA4 / GTM / Pixel</li><li>Funnels</li><li>Lead generation</li></ul>
+      </a>
+      <a class="card" href="https://shahriargrowth.com/services/ai-receptionist/">
+        <p class="mono">AI products</p><h3>AI Solutions</h3>
+        <p>Ready-to-deploy AI systems that answer, book, support and sell for your business, around the clock.</p>
+        <ul><li>AI Receptionist</li><li>AI Reservationist</li><li>AI Support Agent</li><li>Custom AI Agents</li></ul>
+      </a>
+      <a class="card" href="https://shahriargrowth.com/services/">
+        <p class="mono">Business systems</p><h3>Automation &amp; CRM</h3>
+        <p>CRM, pipelines and workflows that remove manual work and make sure no lead is forgotten.</p>
+        <ul><li>GoHighLevel</li><li>n8n workflows</li><li>Process automation</li></ul>
+      </a>
+      <a class="card" href="https://shahriargrowth.com/services/">
+        <p class="mono">Websites that convert</p><h3>Website Development</h3>
+        <p>Fast, premium websites and landing pages built around one job: turning visitors into enquiries and sales.</p>
+        <ul><li>Business sites</li><li>Landing pages</li><li>Real estate</li><li>Restaurants</li><li>Shopify</li></ul>
+      </a>
+      <a class="card" href="https://shahriargrowth.com/services/">
+        <p class="mono">Creative production</p><h3>Content &amp; Creative</h3>
+        <p>Ad creatives, cinematic video, AI-generated content and 3D that make a brand impossible to scroll past.</p>
+        <ul><li>Ad creatives</li><li>Video editing</li><li>AI video &amp; visuals</li><li>3D &amp; Blender</li></ul>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <p class="mono">Selected work</p>
+    <h2>Campaigns, tests <span class="serif grad">and what they produced.</span></h2>
+    <div class="work">
+      <a class="proj" href="https://shahriargrowth.com/projects/meta-ads-performance-portfolio/">
+        <div class="thumb" style="background-image:url(https://shahriargrowth.com/media/e008.webp)"></div>
+        <div class="body"><h3>Meta Ads: purchases, messages, video and reach at scale</h3><p>Including 920 website purchases at $2.08 each.</p><p class="go">View case study ↗</p></div>
+      </a>
+      <a class="proj" href="https://shahriargrowth.com/projects/bdt-212k-net-revenue-20-days/">
+        <div class="thumb txt"><span>৳212,500 <span class="serif grad" style="display:block;font-size:.7em">in 20 days</span></span></div>
+        <div class="body"><h3>৳212,500 net revenue in 20 days from $56 in ad spend</h3><p>A paid campaign with a tiny budget and a strong return.</p><p class="go">View case study ↗</p></div>
+      </a>
+      <a class="proj" href="https://shahriargrowth.com/projects/piano-app-tiktok-ads/">
+        <div class="thumb" style="background-image:url(https://shahriargrowth.com/media/e037.webp)"></div>
+        <div class="body"><h3>Scroll-stopping TikTok creative for a piano learning app</h3><p>Eight native creatives tested side by side: 7.36% overall CTR.</p><p class="go">View case study ↗</p></div>
+      </a>
+      <a class="proj" href="https://shahriargrowth.com/projects/tiktok-shop-gmv-max-test/">
+        <div class="thumb" style="background-image:url(https://shahriargrowth.com/media/e038.webp)"></div>
+        <div class="body"><h3>TikTok Shop GMV Max: a small test with a strong signal</h3><p>$8.66 of ad spend turned into $155.25 from 54 orders.</p><p class="go">View case study ↗</p></div>
+      </a>
+      <a class="proj" href="https://shahriargrowth.com/projects/google-ads-and-search/">
+        <div class="thumb" style="background-image:url(https://shahriargrowth.com/media/e026.webp)"></div>
+        <div class="body"><h3>Google Ads search traffic at a $0.04 average CPC</h3><p>7.46K clicks from 160K impressions.</p><p class="go">View case study ↗</p></div>
+      </a>
+      <a class="proj" href="https://shahriargrowth.com/projects/tiktok-growth-and-commerce/">
+        <div class="thumb" style="background-image:url(https://shahriargrowth.com/media/e029.webp)"></div>
+        <div class="body"><h3>TikTok growth, store revenue and app installs</h3><p>55.7M views in 30 days and a store at 2.68 blended ROAS.</p><p class="go">View case study ↗</p></div>
+      </a>
+    </div>
+    <div class="cta" style="margin-top:2rem"><a class="btn btn-ghost" href="https://shahriargrowth.com/projects/">See all projects ↗</a></div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <p class="mono">How I work</p>
+    <h2>Simple process, <span class="serif grad">clear numbers.</span></h2>
+    <div class="steps">
+      <div class="step"><p class="mono">01</p><h4>Audit</h4><p>Review your ads, tracking, website and offer to find what's holding growth back.</p></div>
+      <div class="step"><p class="mono">02</p><h4>Strategy</h4><p>A clear plan: channels, creatives, funnel and the numbers we'll measure.</p></div>
+      <div class="step"><p class="mono">03</p><h4>Build &amp; launch</h4><p>Campaigns, creatives, automations and pages built and tracked properly.</p></div>
+      <div class="step"><p class="mono">04</p><h4>Optimise &amp; scale</h4><p>Cut what doesn't work, scale what does, with honest reporting.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <p class="mono">Contact</p>
+    <h2>Let's build your <span class="serif grad">next stage of growth.</span></h2>
+    <p class="sub">Tell me where your business is and where you want it to be. I'll reply with honest next steps, usually within one business day.</p>
+    <div class="cta" style="margin-top:2rem">
+      <a class="btn btn-primary" href="https://shahriargrowth.com/#contact">Send a message →</a>
+      <a class="btn btn-ghost" href="https://wa.me/8801703665391" target="_blank" rel="noopener">WhatsApp ↗</a>
+    </div>
+    <div class="ch">
+      <a href="https://shahriargrowth.com/"><span class="mono">Website</span><b>shahriargrowth.com</b></a>
+      <a href="mailto:marketing@shahriargrowth.com"><span class="mono">Email</span><b>marketing@shahriargrowth.com</b></a>
+      <a href="https://wa.me/8801703665391" target="_blank" rel="noopener"><span class="mono">WhatsApp</span><b>+880 1703-665391</b></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <script>document.write(new Date().getFullYear())</script> Shahriar Ahammed Ridoy · AI Marketing &amp; Growth Strategist</span>
+    <a href="https://shahriargrowth.com/">Full website: shahriargrowth.com ↗</a>
+  </div>
+</footer>
+
+</body>
+</html>
